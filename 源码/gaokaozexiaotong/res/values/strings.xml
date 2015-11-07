@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">高考择校通</string>
+  <!-- 主菜单 -->
+ 
+    <string name="action_add">菜单</string>
+  <!--隐藏菜单 -->
+    <string name="menu_search">查询</string>
+    <string name="menu_zixun">资讯</string>
+    <string name="menu_feedback">意见反馈</string>
+    <string name="menu_time">高考时光轴</string>
+    
+  <!-- 下标菜单 -->
+    <string name="tab_search">查询</string>
+    <string name="tab_information">资讯</string>
+		<string-array name="generals">
+	    <item>江苏省2015年普通高校招生体育专业统考将于4月22日起进行</item>
+	    <item>省教育考试院关于发布江苏省2015年普通高中学业水平测试必修科目考试成绩的通告</item>
+	    <item>我的高中学校经历</item>
+	    <item>专家支招：高考最后一个月排除杂念全力冲刺</item>
+	    <item>我省普通高校对口单招文化统考将于4月25日至26日进行</item>
+	    <item>2014年普通高校对口单招文化统考圆满结束志愿填报工作即将开始</item>
+	    <item>成长的奇迹</item>
+90
+	</string-array>
+</resources>

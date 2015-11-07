@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   	
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal" 
+       >
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="我的高中学校经历" 
+           android:textSize="20dip"
+           android:gravity="center"/>
+       
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2015.4.7" />
+
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="【经历高考】" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/content"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dip"
+           android:layout_marginRight="5dip"
+           android:scrollbars="vertical"
+           android:singleLine="false"
+           android:text="很高兴能和师弟师妹聊一聊我的高中学习经历。高考是一次综合性考试，只有学科全面发展，才能取得理想的成绩。所以我要说的是优势学科常抓不懈，薄弱科目要集中精力攻坚克难，这样才能让自己不至于被短板拖后腿。就拿我来说，我的物理化学基础比较好，还参加了学科竞赛，一般高考级别的题目大多难不倒我，所以高三复习时只要课上认真听讲，作业基本上就能在课内完成。而语文一向是我薄弱的科目，高中阶段我的语文成绩一直在110左右徘徊，曾经有过一次作文才得了30分（心理阴影啊），所以我在高三这一年集中主攻语文。我认为语文学习狠抓三点：一是基础知识，包括选择、默写等，所以积累很重要，可用平时同学之间相互纠错的方法来加强记忆；二是阅读，虽然高三学习紧张，很难有空余时间，但我还是挤出一部分时间加强课外阅读，哪怕睡前翻个十几二十页，这对于提高阅读和作文的成绩很有帮助；三是写作，素材积累、佳作欣赏是老师经常强调的，但只有动笔练习才能把别人的变成自己的，像我这种语文“学渣”，一周得写上3~4篇作文才有效果。虽然累，但最终能换来高考120的成绩，“功夫不负有心人”。如果说我有什么学习的独特方法的话，主要还是体现在数学上。数学有三宝：笔记、草稿、课本。一本好的笔记，要做到简约而不简单。记笔记不是把老师课上所讲原封不动地抄下来，这样会导致课上缺乏思考，课后看着密密麻麻的天书又无从下手。笔记要记录课堂要点和自己似懂非懂的知识点，并把老师提醒的易错点记在旁边，同时要用简洁明了的方式记录，以便跟上老师的节奏。课后回顾时，要补充自己思考的内容，方便日后回忆。而一本有条理的草稿本，也能体现出思路的缜密性，出现错误时又能及时找出哪一环节出了问题。至于课本，近年部分高考题就是课本原题改编而来，复习到最后，回归课本既是抓牢基础，也是贴近高考，多研究课本习题，无论对于应试还是拓展思路都是很重要的。除了书本以外，高中学习还有一个非常重要的资源，就是老师和同学。和老师交流，老师肯定会尽其所能帮你解决学习上的问题，如果心情有一些波动，也可以和老师谈谈心，老师以鼓励为主，也许就能帮你摆脱烦恼。同学之间讨论问题，分享各自的想法，也算是学习道路上的一条捷径。"
+           android:textSize="15dip" />
+
+   </LinearLayout>
+
+</LinearLayout>

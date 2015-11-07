@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   	
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal" 
+       >
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="成长的奇迹" 
+           android:textSize="20dip"
+           android:gravity="center"/>
+       
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2015.4.7" />
+       
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="【高考生活】" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/content"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="15dip"
+           android:singleLine="false"  
+           android:scrollbars="vertical" 
+    	   android:gravity="center"
+           android:layout_marginLeft="5dip"
+           android:layout_marginRight="5dip"
+           android:text="在人生每个阶段怀着眷恋和淡然的心态回首，一个六年、一个三年、又一个三年。我渐渐从只会接受知识到有着自己不一样的理解，从羞怯地不敢讲话到大方自信地当众发言，从迷惘而毫无目标到清楚地知道自己要什么……不知道是不是每个人都会为今天的自己感到惊讶，在不知不觉之间，我们长成了这样的自己，一个我们数年前想都不敢想象的自己。
+在进入高中前，我没有想过自己要上一所什么样的大学，自己要拥有怎样的人生。那时候的我只是觉得自己取得了一个小小的成功，而且很满足，不再想以后要怎样，不知道如果想的话能不能想出答案，但是这一切都没关系，成长中如果一步一个脚印地向前走，一直坚定而不操之过急，人生会显示出你为自己准备的答案。我的答案在进入高一，学校开展的“种下一棵理想树”的活动中向我招手了。经过一系列的讲座等各种活动，童年时模糊的影子、一些愿望、听过的几个名字重新浮出记忆的水面，于是这些促使了我在最后写下了一个三年后我想要达到的目标：进入清华大学。那张纸现在还留在我的抽屉里，我在下面加了一行字：你的又一个愿望已经达成，继续努力。它和我曾经达成的一些愿望一起微笑地看着我，以鼓励的目光。
+为什么我总能在最后的关键时刻成功地迈出足够远的一步？曾经有很多人好奇地问过我这个问题，因为他们没有看到我付出足够多他们所认为的那种努力。天道酬勤当然是不错的，但是这是有前提的，你必须走一条对自己来说是适合的道路。
+那么接踵而来的是第二个问题，怎么才能找到这一条路？高中以前的我跟随的是老师的脚步，何其幸运我进入了一所推动我们这些孩子自己去寻找道路的高中，我相信，我们中的大多数人，都成功地找到了。16—18岁，是我们一生中某些特质形成的关键时期，这些特质包括看世界的情趣、了解身边人与事的眼光……是这些东西把每个人与他人分别开来，而不是成绩、工作这些“硬性指标”。高中时代的孩子们，大多数都面临着高考的压力，但无论如何，要利用一切的机会形成自己的特质。即使没有时间多读些好书多看些好电影，课堂也是个潜力无限的宝库。在语文课上读到了一篇自己深有共鸣的文章，可以以此为中心多读一些，发掘自己独到的见解，然后把它写下来；在数学课上遇到了一个自己觉得非常奇妙的定理，可以学着自己推导，走一遍历史的进程，发现它与其他知识的联系……类似的例子还有很多，就看你怎么做个生活中的有心人。每分每秒都是独特又珍贵的，因为它们永不再来，如果不想永远地与那些美好错过，就紧紧地抓住它们吧。有一天你会惊奇地发现，自己艳羡过的那些品质，就这样出现在自己身上了，这就是成长的奇迹。
+也有很多时候，你会觉得理想和现实间很难找到一个平衡点。闪光的内在别人看不到，外界关注的都是那些数量指标。有这种想法的孩子们，要更坚定地做自己，相信我，迷惘和自我否定都是暂时的，只要始终对自己抱有信心，毫不了解你的人的怀疑又算什么呢？体制化的东西有些时候阻碍了我们的脚步，但它绝不会是一生的决定因素。你们终会找到适应高考的方法，只要保持正确的心态。即使高考失利，人生也并非就此结束了，记住这点，任何时候，成功与否，你们还是你们自己，这又是一个美丽的奇迹，不是么？
+（华子评同学毕业于南京师范大学附属中学，2009年高考总分410分，被清华大学录取。）"></TextView>
+
+   </LinearLayout>
+
+</LinearLayout>

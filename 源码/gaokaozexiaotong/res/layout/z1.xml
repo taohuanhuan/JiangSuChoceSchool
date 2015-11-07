@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   	
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal" 
+       >
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="江苏省2015年普通高校招生体育专业统考将于4月22日起进行" 
+           android:textSize="20dip"
+           android:gravity="center"/>
+       
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2015.4.7" />
+
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="【高考政策】" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/content"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="15dip"
+           android:singleLine="false"  
+           android:scrollbars="vertical" 
+           android:layout_marginLeft="5dip"
+           android:layout_marginRight="5dip"
+           android:text="2015年普通高校招生体育专业统考确认工作全部结束，全省共有6000余名考生参加考试，与2014年相比减少200余人。全省共设5个考点，同时进行基本素质和9个专项的考试，具体为：
+南京体育学院：武术、健美操、羽毛球；报到地址：南京市灵谷寺路8号；
+南京师范大学：体操、排球、足球；报到地址：仙林校区体育中心（南京市文苑路1号）；
+苏州大学：乒乓球；报到地址：东校区游泳馆（苏州市东环路50号）；
+扬州大学：篮球；报到地址：文汇路校区体育学院田径场（扬州市文汇东路48号）；
+江苏师范大学：田径；报到地址：泉山校区体育学院（徐州市铜山区上海路101号）。
+考生须于4月22日携带居民二代身份证、《江苏省2015年普通高校招生体育专业考试通知书》和网上打印的专业考试信息确认表，到测试专项对应的考点报到、面试，23日起开始考试。
+其中，报考体育统考且兼报体育单招（运动训练、武术与民族传统体育专业招生）的考生，须22日到江苏师范大学报到，23、24日在江苏师范大学参加体育统考基本素质考试，25、26日在江苏师范大学参加体育单招文化考试，根据江苏师范大学安排27日进行体育统考专项测试。
+特别提醒：
+1.考生须按考试日程指定的时间和地点参加考试，逾期不予补考。
+2.确认专项与原报考专项不一致的考生，一定要到确认专项对应的考点参加考试。
+3.诚信参加考试，对在专业考试中被认定为违规的考生，将按照《国家教育考试违规处理办法》（教育部令第33号）处理，并将考生违规事实记入其高考诚信电子档案，为招生院校录取考生提供参考。
+4.考生在报到和考试等各环节中要注意安全问题，要提前做好交通、食宿、应对天气变化等方面的各项准备工作。" 
+           />
+
+   </LinearLayout>
+
+</LinearLayout>

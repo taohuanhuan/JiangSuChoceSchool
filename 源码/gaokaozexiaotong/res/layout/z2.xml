@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   	
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"  
+       >
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="省教育考试院关于发布江苏省2015年普通高中学业水平测试必修科目考试成绩的通告" 
+           android:textSize="20dip"
+           android:gravity="center"/>
+       
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2015.4.7" />
+
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="【高考政策】" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/content"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="15dip"
+           android:singleLine="false"  
+           android:scrollbars="vertical" 
+   
+           android:layout_marginLeft="5dip"
+           android:layout_marginRight="5dip"
+           android:text="江苏省2015年普通高中学业水平测试必修科目考试成绩拟定于4月20日下午17:00向社会公布， 由各市、县（区、市）招生办公室统一下发。高二学生和应届毕业生到所在学校、往届毕业生和社会人员到报名所在县（市、区）招生办公室指定的地点领取《考试成绩通知单》。此外，考生也可登陆江苏省教育考试院门户网（http://www.jseea.cn）或通过拨打16883870声讯台查询自己的成绩。江苏省教育考试院门户网和声讯台仅为成绩查询的辅助手段，考生成绩以《考试成绩通知单》的记载为准。我省普通高中学业水平测试必修科目考试成绩发布后，如有个别考生对本人成绩有疑问，可在4月21日—22日下午17:00前向报名所在县（市、区）招办提出复核考试成绩的书面申请，该申请须由考生所在中学审核签署意见并盖章，由县（市、区）招办汇总，并逐级报至省教育考试院统一复核。复核结果由县（市、区）招办答复申请人。"
+           />
+
+   </LinearLayout>
+
+</LinearLayout>

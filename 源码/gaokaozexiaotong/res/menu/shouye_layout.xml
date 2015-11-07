@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.exmp1.jisuzexiaotong.ShouyeLayoutActivity" >
+
+    
+ <!-- 查询 --> 
+    <item
+        android:id="@+id/chaxun"
+        android:icon="@drawable/menu_group_chat_icon"
+        android:title="@string/menu_search"/>
+<!-- 资讯 -->
+	<item
+        android:id="@+id/zixun"
+        android:icon="@drawable/menu_group_chat_icon"
+        android:title="@string/menu_zixun"/>	
+<!-- 时光轴  -->
+    <item
+        android:id="@+id/time"
+        android:icon="@drawable/menu_add_icon"
+        android:title="@string/menu_time"/>
+    
+
+<!-- 意见反馈 -->
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/menu_feedback_icon"
+        android:title="@string/menu_feedback"/>
+
+</menu>

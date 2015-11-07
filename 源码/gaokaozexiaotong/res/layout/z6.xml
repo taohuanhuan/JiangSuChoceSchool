@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   	
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal" 
+       >
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2014年普通高校对口单招文化统考圆满结束志愿填报工作即将开始 " 
+           android:textSize="20dip"
+           android:gravity="center"/>
+       
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2015.4.7" />
+       
+           <TextView
+           android:id="@+id/textView3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="【政策资讯】" />
+       
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/content"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="15dip"
+           android:singleLine="false"  
+           android:scrollbars="vertical" 
+           android:layout_marginLeft="5dip"
+           android:layout_marginRight="5dip"
+           android:text="我省2014年普通高校对口单招文化统考于4月19日-20日顺利进行。今年对口单招全省共设29个考点，1144个考场，有29489名考生参加考试。
+在各市招办（考试院、考试中心）的精心组织下，考试期间各项工作平稳顺利，安全保密措施到位，无突发事件发生。由于各市在考前加大了对考生的诚信教育，并加强了监考员的遴选、培训工作，考试期间全省各地考风考纪良好。对口单招文化统考阅卷工作将于4月21日正式开始，预计文化统考成绩将于5月中旬对外公布。
+2014年对口单招实行全省统一网上志愿填报，凡专业技能成绩合格且参加文化统考的对口单招考生均可填报志愿，志愿填报网址：http://dkdzzy.jseea.cn。填报时间为4月23日至26日，志愿确认截止时间为4月26日17时。省教育考试院提醒符合填报条件的考生珍惜来之不易的升学机会，务必在规定的时间内进行网上志愿填报与志愿信息现场确认；要做好填报前准备工作，了解院校和专业对考生身体条件的要求，避免因身体原因造成志愿填报不当导致的院校退档；考生志愿信息须经考生本人签字确认后方为有效，未经考生本人确认的志愿信息一律无效。
+    为方便考生填报志愿，今年我省将在志愿填报前在考试院门户网站公布对口单招计划，网址：http://www.jseea.cn，敬请关注。
+           "/>
+
+   </LinearLayout>
+
+</LinearLayout>

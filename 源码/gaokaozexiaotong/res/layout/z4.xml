@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   	
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal" 
+       >
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="专家支招：高考前一个月排除杂念全力冲刺" 
+           android:textSize="20dip"
+           android:gravity="center"/>
+       
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2015.4.7" />
+
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="【高考生活】" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/content"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="15dip"
+           android:singleLine="false"  
+           android:scrollbars="vertical" 
+           android:layout_marginLeft="5dip"
+           android:layout_marginRight="5dip"
+           android:text="距离高考还有一个月，相关老师提醒，正处在冲刺期的高三生要排除一切杂念，聚精会神地向着自己的高考目标全力前进。
+高三生晓雪现在脑子里经常闪现一些让自己困惑的问题，如“将来考不上一个好大学，自己该去做什么？”、“考不好，如何面对父母和亲朋好友？”等。
+据了解，越临近高考，考生越容易出现紧张、急躁、焦虑、无所适从、悲观失望等情绪，从而导致学习效率严重下降。在这段时间里，与高考有关的各种信息也会接踵而来，在很大程度上影响考生的备考情绪。一些高三生难以静下心来进入高效的复习状态。
+北京宏志中学老师张霞认为，越是关键的时候，考生越要保持冷静平稳的心态，过度紧张和焦虑只会影响复习效率。考生应该以积极的心态、坚定必胜的信念，排除一切杂念，全力以赴向目标冲刺，而不要现在就为将来的事情患得患失。
+目前，各个层次考生的目标已基本明确。考生要根据自己的目标定位和实际情况进行复习。考前一个月，复习的重点不要再放在难题上，而应该回归课本，回归基础。考生还要把主要精力用在会做但却经常出错的知识点上，把以前整理的错题作为重点复习的内容，以便在有限的时间里提高复习效率。此外，还要注意劳逸结合。当感到疲倦时，考生可以适当做一下眼保健操和深呼吸等。
+           "/>
+
+   </LinearLayout>
+
+</LinearLayout>

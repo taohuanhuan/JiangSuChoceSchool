@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   	
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal" 
+       >
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="我省普通高校对口单招文化统考将于4月25日至26日进行" 
+           android:textSize="20dip"
+           android:gravity="center"/>
+       
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2015.4.7" />
+       
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="【政策资讯】" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/content"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="15dip"
+           android:singleLine="false"  
+           android:scrollbars="vertical" 
+           android:layout_marginLeft="5dip"
+           android:layout_marginRight="5dip"
+           android:text="我省普通高校对口单招文化统考将于4月25日、26日两天进行，全省2.8万余名考生将分别在13个市、28个考点参加考试。
+为做好今年文化统考工作，省教育考试院于4月1日专门召开了全省考务工作视频会议。会上要求各级考试机构要强化组织领导，明确工作职责，以高度的政治责任感和大局意识组织考试；要提高安全识，落实安全责任，做好试卷流转环节的安全保密工作；要强化考前培训，规范操作流程，确保考试过程的统一性、规范性和合法性；要坚持以人为本，为考生提供优质的服务。
+省教育考试院提醒广大考生：
+1. 考前要认真学习考试有关规定及注意事项，并带好相关证件和考试用品（不得携带规定以外的物品进入考场），准时入场参加考试。
+2. 考试时要遵守考场纪律，服从管理，诚信考试。对有违规行为的，将按《国家教育考试违规处理办法》有关规定进行处理。同时，记入《国家教育考试诚信档案》，供有关学校、用人单位查询。
+3. 文化统考成绩将于5月中旬公布，届时，考生可登录省教育考试院网站（www.jseea.cn）或拨打声讯电话（16883852）查询。
+           "/>
+
+   </LinearLayout>
+
+</LinearLayout>

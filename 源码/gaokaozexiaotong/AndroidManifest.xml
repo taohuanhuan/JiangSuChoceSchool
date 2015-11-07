@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.exmp1.jisuzexiaotong"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!-- 首页 -->
+        <activity
+            android:name="cn.exmp1.yindaoye.WelcomeAct"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 资讯 -->
+ 
+        <!-- 时光轴 -->
+            <activity 
+            android:name="cn.exmp1.shiian.TimeLayout"
+            android:label="@string/app_name"
+            ></activity>
+       
+            <activity android:name="cn.exmp1.chaxunhou.ChaxunhouLayout"  ></activity>
+            <activity android:name="cn.exmp1.chaxunhou.Chaxunhou2"  ></activity>
+
+           <activity android:name="cn.exmp1.jisuzexiaotong.ShouyeLayoutActivity"></activity>
+       <activity android:name="cn.exmp1.fankui.FankuiLayout"></activity>
+          
+        <activity android:name="cn.exmp1.yindaoye.Guide" />
+    
+        <activity android:name="cn.exmp1.jisuzexiaotong.MainActivity" />
+        <activity android:name="cn.exmp1.zixun.ZixunLayout"></activity>
+       
+        <activity android:name="cn.exmp1.zixun.Z1" ></activity>
+ 		<activity android:name="cn.exmp1.zixun.Z2" ></activity>
+ 		<activity android:name="cn.exmp1.zixun.Z3" ></activity>
+ 		<activity android:name="cn.exmp1.zixun.Z4" ></activity>
+ 		<activity android:name="cn.exmp1.zixun.Z5" ></activity>
+ 		<activity android:name="cn.exmp1.zixun.Z6" ></activity>
+ 		<activity android:name="cn.exmp1.zixun.Z7" ></activity>
+ 		
+ 		 		 		
+    </application>
+
+</manifest>

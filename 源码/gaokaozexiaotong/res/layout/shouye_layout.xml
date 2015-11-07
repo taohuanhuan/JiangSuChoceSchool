@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+ >
+
+   
+<!-- 图片 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="180dip" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="180dip"
+            android:src="@drawable/shou1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:gravity="center_horizontal"
+      	
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="江苏省考生择校通"
+            android:textSize="20dp"
+           />
+
+    </LinearLayout>
+
+ <!-- 分数 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分数:" />
+
+        <EditText
+            android:id="@+id/et_score"
+            android:layout_width="180dip"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+        <!-- 添加分隔线 -->
+    <ImageView   
+        android:layout_width="fill_parent"  
+        android:layout_height="1dp"  
+        android:background="#F5FFFA"  
+        />
+
+	<!-- 分科 -->
+    <LinearLayout
+        android:layout_marginLeft="50dip"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/spinnerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+     
+    <ImageView   
+        android:layout_width="fill_parent"  
+        android:layout_height="1dp"  
+        android:background="#F5FFFA"  
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="高考年份:" />
+
+        <EditText
+            android:id="@+id/et_year"
+            android:layout_width="180dip"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+        <!-- 添加分隔线 -->
+    <ImageView   
+        android:layout_width="fill_parent"  
+        android:layout_height="1dp"  
+        android:background="#F5FFFA"  
+        />
+        
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center" >
+	 
+	 	<Button
+            android:id="@+id/bt_score"
+            android:background="#DCDCDC"
+            android:layout_width="200dip"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="查询" />
+        </LinearLayout>
+        
+        <ImageView   
+        android:layout_width="fill_parent"  
+        android:layout_height="2dp"  
+        android:background="#808080"  
+        />    
+	
+    <LinearLayout 
+        android:layout_marginLeft="50dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"      
+        >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="心仪学校：" />
+
+        <EditText
+            android:id="@+id/et_school"
+            android:layout_width="130dip"
+            android:layout_height="wrap_content"
+            android:ems="10" />  
+    </LinearLayout>
+    <ImageView   
+        android:layout_width="fill_parent"  
+        android:layout_height="1dp"  
+        android:background="#F5FFFA"  
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        > 
+        <Button
+        android:background="#DCDCDC"
+        android:id="@+id/bt_school"
+        android:layout_width="200dip"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text="学校查询" />
+       
+        </LinearLayout>
+
+  	   <ImageView   
+        android:layout_width="fill_parent"  
+        android:layout_height="1dp"  
+        android:background="#F5FFFA"  
+        />  
+		
+  </LinearLayout>
