@@ -13,9 +13,10 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
         <!-- 首页 -->
         <activity
-            android:name="cn.exmp1.yindaoye.WelcomeAct"
+            android:name="cn.zxt.guidepage.WelcomeAct"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,33 +25,39 @@
             </intent-filter>
         </activity>
         <!-- 资讯 -->
- 
-        <!-- 时光轴 -->
-            <activity 
-            android:name="cn.exmp1.shiian.TimeLayout"
-            android:label="@string/app_name"
-            ></activity>
-       
-            <activity android:name="cn.exmp1.chaxunhou.ChaxunhouLayout"  ></activity>
-            <activity android:name="cn.exmp1.chaxunhou.Chaxunhou2"  ></activity>
 
-           <activity android:name="cn.exmp1.jisuzexiaotong.ShouyeLayoutActivity"></activity>
-       <activity android:name="cn.exmp1.fankui.FankuiLayout"></activity>
-          
-        <activity android:name="cn.exmp1.yindaoye.Guide" />
-    
-        <activity android:name="cn.exmp1.jisuzexiaotong.MainActivity" />
-        <activity android:name="cn.exmp1.zixun.ZixunLayout"></activity>
-       
-        <activity android:name="cn.exmp1.zixun.Z1" ></activity>
- 		<activity android:name="cn.exmp1.zixun.Z2" ></activity>
- 		<activity android:name="cn.exmp1.zixun.Z3" ></activity>
- 		<activity android:name="cn.exmp1.zixun.Z4" ></activity>
- 		<activity android:name="cn.exmp1.zixun.Z5" ></activity>
- 		<activity android:name="cn.exmp1.zixun.Z6" ></activity>
- 		<activity android:name="cn.exmp1.zixun.Z7" ></activity>
- 		
- 		 		 		
+
+        <!-- 时光轴 -->
+        <activity
+            android:name="cn.zxt.time.TimeLayout"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="cn.zxt.query.QueryLayout" >
+        </activity>
+        <activity android:name="cn.zxt.query.Query2" >
+        </activity>
+        <activity android:name="cn.zxt.main.MainLayoutActivity" >
+        </activity>
+        <activity android:name="cn.zxt.feedback.FeedbackLayout" >
+        </activity>
+        <activity android:name="cn.zxt.guidepage.Guide" />
+        <activity android:name="cn.zxt.main.MainActivity" />
+        <activity android:name="cn.zxt.information.InformationLayout.java" >
+        </activity>
+        <activity android:name="cn.zxt.information.Z1" >
+        </activity>
+        <activity android:name="cn.zxt.information.Z2" >
+        </activity>
+        <activity android:name="cn.zxt.information.Z3" >
+        </activity>
+        <activity android:name="cn.zxt.information.Z4" >
+        </activity>
+        <activity android:name="cn.zxt.information.Z5" >
+        </activity>
+        <activity android:name="cn.zxt.information.Z6" >
+        </activity>
+        <activity android:name="cn.zxt.information.Z7" >
+        </activity>
     </application>
 
 </manifest>
